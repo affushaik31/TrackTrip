@@ -89,7 +89,7 @@ function App() {
 
                        
 
-                        <input type='date' value={date} min={today} onChange={(event)=>setDate(event.target.value)}/>
+                        <input type='date' placeholder='Select Trip Date' value={date} min={today} onChange={(event)=>setDate(event.target.value)}/>
                         <div style={{display:'flex', columnGap:'10px',flexWrap:'wrap', alignItems:'center', justifyContent:'center',rowGap:'8px'}}>
 
                         <input type='text' placeholder='Enter your name'
