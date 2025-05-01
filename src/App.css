@@ -1,0 +1,70 @@
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding: 6px;
+  row-gap: 10px;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.ticket{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+select{
+  height: 42px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+input{
+  height: 40px;
+  width: 250px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+
+button{
+  height: 48px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(7, 60, 167);
+  color: rgb(236, 236, 241);
+  border: none;
+  box-shadow: 3px 3px 6px rgb(24, 1, 1);
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 3px;
+}
